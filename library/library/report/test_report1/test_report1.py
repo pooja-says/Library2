@@ -11,8 +11,7 @@ def execute(filters=None):
         return [],[]
     columns = get_columns()
     data = get_data(filters)
-    message = print.msg("you changed it.")
-    return columns,data,message
+    return columns,data
 
 def get_columns():
     return [
