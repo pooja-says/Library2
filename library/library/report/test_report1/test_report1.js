@@ -16,9 +16,20 @@ frappe.query_reports["test_report1"] = {
 				"RSL Distilleries Pvt. Ltd.",
 				"Rana Informatics Pvt Ltd",
 				"Rana Power Limited",
-				"Rana Sugar LTD",
+				"Rana Sugars LTD",
 				"Superior Biofuel Pvt Ltd",
 				"Superior Food Grains Private Ltd"
+			]
+		},
+		{
+			"fieldname" : "segment",
+			"label"  : "Segment",
+			"fieldtype" : "Select",
+			"options" : [
+				"Distillery",
+				"Sugar",
+				"Power",
+				"Beet"
 			]
 		},
 		{

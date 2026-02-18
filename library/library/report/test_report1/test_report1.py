@@ -4,7 +4,7 @@
 import frappe
 from frappe.query_builder import DocType
 from frappe.query_builder import functions as fn
-#from frappe.query_builder.functions import sum,Count
+
 def execute(filters=None):
     if not filters:
         filters = {}
@@ -54,7 +54,7 @@ def get_columns():
     	{
 			"fieldname" : "qty",
 			"fieldtype"  : "Data",
-			"label" : "Quantity",
+			"label" : "Total Quantity",
 			"width" : 150
 		}
 	]
